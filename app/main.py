@@ -1,5 +1,8 @@
+from core.app import WorkspaceFocusAssistant
 def main():
-    print("Workspace Focus Assistant")
+    app = WorkspaceFocusAssistant()
+    app.run()
+
 
 if __name__ == "__main__":
     main()
